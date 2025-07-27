@@ -1,0 +1,8 @@
+# Terraform sensitive files to ignore
+.terraform/
+*.tfstate
+*.tfstate.backup
+*.pem
+*.zip
+*.tar.gz
+*.bak
