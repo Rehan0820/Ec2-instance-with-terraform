@@ -45,38 +45,38 @@ It automates the setup of:
   aws configure
 A valid AWS account
 
-🚀 Usage
+## 🚀 Usage
 
-Clone this repository:
+## Clone this repository:
 
 git clone https://github.com/<your-username>/<repo-name>.git
 cd <repo-name>
 
 
-Initialize Terraform:
+## Initialize Terraform:
 
 terraform init
 
 
-Validate configuration:
+## Validate configuration:
 
 terraform validate
 
 
-Apply the configuration:
+## Apply the configuration:
 
 terraform apply -auto-approve
 
 
 Once created, Terraform will output the instance details.
 
-🛑 Clean Up
+## 🛑 Clean Up
 
 To avoid unwanted AWS charges, destroy the resources:
 
 terraform destroy -auto-approve
 
-📌 Notes
+## 📌 Notes
 
 Make sure your AWS region supports the AMI ID ami-0d1b5a8c13042c939.
 If not, replace it with a region-specific AMI.
@@ -85,7 +85,7 @@ Use the corresponding private key for SSH login:
 
 ssh -i Terra-key-pair.pem ec2-user@<public-ip>
 
-📜 License
+## 📜 License
 
 This project is licensed under the MIT License.
 
